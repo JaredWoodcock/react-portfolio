@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Project = ({ title, description, demoLink, githubLink }) => {
+export default function Project({ title, description, demoLink, githubLink }) {
     return (
         <div className="project-card">
             <h3>{title}</h3>
@@ -12,5 +10,3 @@ const Project = ({ title, description, demoLink, githubLink }) => {
         </div>
     );
 };
-
-export default Project;

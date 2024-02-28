@@ -1,13 +1,10 @@
-import React from "react";
 import Nav from './Nav';
 
-const Header = () => {
+export default function Header() {
     return (
-        <header>
-            <h1>Jared Woodcock's Portfolio</h1>
+        <header className='text-center'>
+            <h1 className='fw-bold'>Jared Woodcock's Portfolio</h1>
             <Nav />
         </header>
     );
 }
-
-export default Header;

@@ -1,6 +1,4 @@
-import React from 'react';
-
-const ContactForm = () => {
+export default function ContactForm() {
     return (
         <form>
             <div>
@@ -19,5 +17,3 @@ const ContactForm = () => {
         </form>
     );
 };
-
-export default ContactForm;

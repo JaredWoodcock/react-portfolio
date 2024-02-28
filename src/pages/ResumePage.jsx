@@ -1,6 +1,4 @@
-import React from 'react';
-
-const ResumePage = () => {
+export default function ResumePage() {
     return (
         <div>
             <h2>Resume</h2>
@@ -16,5 +14,3 @@ const ResumePage = () => {
         </div>
     );
 };
-
-export default ResumePage;

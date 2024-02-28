@@ -1,17 +1,39 @@
-import React from "react";
 import { Link } from 'react-router-dom';
 
-const Nav = () => {
+export default function Nav() {
     return (
-        <nav>
-            <ul>
-                <li><Link to='/'>About Me</Link></li>
-                <li><Link to='/portfolio'>Portfolio</Link></li>
-                <li><Link to='/contact'>Contact</Link></li>
-                <li><Link to='/resume'>Resume</Link></li>
+        <nav className="d-flex justify-content-center">
+            <ul className="list-inline">
+                <li className="list-inline-item">
+                    <Link to='/' className="text-decoration-none">
+                        <em>About Me</em>
+                    </Link>
+                </li>
+                
+                <li className="list-inline-item">|</li>
+                
+                <li className="list-inline-item">
+                    <Link to='/portfolio' className="text-decoration-none">
+                        <em>Portfolio</em>
+                    </Link>
+                </li>
+                
+                <li className="list-inline-item">|</li>
+                
+                <li className="list-inline-item">
+                    <Link to='/contact' className="text-decoration-none">
+                        <em>Contact</em>
+                    </Link>
+                </li>
+                
+                <li className="list-inline-item">|</li>
+                
+                <li className="list-inline-item">
+                    <Link to='/resume' className="text-decoration-none">
+                        <em>Resume</em>
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
 }
-
-export default Nav;

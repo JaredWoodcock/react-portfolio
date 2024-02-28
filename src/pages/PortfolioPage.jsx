@@ -1,7 +1,6 @@
-import React from 'react';
 import Project from '../components/Project';
 
-const PortfolioPage = () => {
+export default function PortfolioPage() {
     const projects = [
         {
             title: 'Project 1',
@@ -34,5 +33,3 @@ const PortfolioPage = () => {
         </div>
     );
 };
-
-export default PortfolioPage;
