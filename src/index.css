@@ -4,19 +4,21 @@
 
 a {
   font-weight: 500;
-  color: #000000;
+  color: #fff;
   text-decoration: inherit;
 }
 
 body {
   margin: 0px;
+  margin-bottom: 100px;
   min-width: 320px;
-  min-height: 100vh;
-  background-color: #EAE0C8;
+  /* min-height: 100vh; */
+  background-color: #caf0f8;
 }
 
 header, footer {
-  background-color: #C3B091;
+  background-color: #0077b6;
+  color: #fff;
 }
 
 footer {
