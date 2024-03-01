@@ -17,7 +17,7 @@ export default function PortfolioPage() {
     ];
 
     return (
-        <div>
+        <div className='m-5'>
             <h2>Portfolio</h2>
             <div className="project-list">
                 {projects.map((project, index) => (

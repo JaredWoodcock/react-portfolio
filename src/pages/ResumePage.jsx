@@ -1,8 +1,9 @@
 export default function ResumePage() {
     return (
-        <div>
+        <div className="m-5">
             <h2>Resume</h2>
-            <a href="" download>Click here to view my resume</a>
+            <a href="" download>Click here to download my resume</a>
+
             <div>
                 <h3>Proficiencies</h3>
                 <ul>

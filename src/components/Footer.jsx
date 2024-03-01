@@ -1,9 +1,16 @@
 export default function Footer() {
     return (
-        <footer>
-            <div>
-                <a href="https://github.com/JaredWoodcock" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="www.linkedin.com/in/jared-woodcock-237549210" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <footer className="py-4">
+            <div className="text-center">
+                <a className="list-inline-item" href="https://github.com/JaredWoodcock" target="_blank" rel="noopener noreferrer">GitHub</a>
+
+                <div className="list-inline-item">|</div>
+
+                <a className="list-inline-item" href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                
+                <div className="list-inline-item">|</div>
+
+                <a className="list-inline-item" href="" target="_blank" rel="noopener noreferrer">Another Link</a>
             </div>
         </footer>
     );

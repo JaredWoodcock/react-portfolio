@@ -1,6 +1,6 @@
 export default function AboutMePage() {
     return (
-        <div>
+        <div className="m-5">
             <h2>About Me</h2>
             <p>Welcome to my portfolio!</p>
             <p>I'm Jared Woodcock and I am seeking a career in web development. I enjoy turning ideas into fascinating, interactive experiences on the web.</p>
