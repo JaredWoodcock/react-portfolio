@@ -39,7 +39,7 @@ export default function ContactForm() {
         if (!value) {
             setErrors({ ...errors, email: 'This field is required' });
         } else if (!validateEmail(value)) {
-            setErrors({ ...errors, email: 'Not a valid email' });
+            setErrors({ ...errors, email: 'Invalid email' });
         } else {
             setErrors({ ...errors, email: false });
         }

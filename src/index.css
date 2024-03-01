@@ -8,6 +8,11 @@ a {
   text-decoration: inherit;
 }
 
+.active a {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
 body {
   margin: 0px;
   margin-bottom: 100px;

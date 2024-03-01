@@ -1,7 +1,7 @@
 export default function AboutMePage() {
     return (
         <div className="m-5">
-            <h2>About Me</h2>
+            <h2 className="pb-3">About Me</h2>
             <p>Welcome to my portfolio!</p>
             <p>I'm Jared Woodcock and I am seeking a career in web development. I enjoy turning ideas into fascinating, interactive experiences on the web.</p>
             <p>My journey in web development began by trying to find the thing that I was passionate about. I have always enjoyed building things and
