@@ -31,3 +31,25 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+img {
+  max-width: 100%;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media (min-width: 1920px) {
+  .project-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+}
