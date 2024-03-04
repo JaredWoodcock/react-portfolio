@@ -1,5 +1,6 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+* {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
 }
 
 a {
@@ -14,11 +15,18 @@ a {
 }
 
 body {
-  margin: 0px;
-  margin-bottom: 100px;
-  min-width: 320px;
-  padding-top: 120px;
+  padding-bottom: 65px;
+  padding-top: 170px;
   background-color: #caf0f8;
+  font-size: 20px;
+}
+
+header h1 {
+  font-size: 70px;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: bolder;
 }
 
 header, footer {
@@ -34,10 +42,15 @@ header {
   z-index: 1000;
 }
 
+nav {
+  font-size: 18px;
+}
+
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  font-size: 28px;
 }
 
 img {
@@ -65,12 +78,13 @@ img {
 }
 
 @media (max-width: 600px) {
-  /* New layout for smaller screens */
   #headshot-picture {
     position: static;
-    max-width: 100%; /* Adjust as needed */
+    max-width: 100%;
     max-height: auto;
     border-radius: 50%;
+    display: block;
+    margin: 0 auto;
   }
   #about-me-content {
     padding-right: 0px;
@@ -86,5 +100,8 @@ img {
 @media (max-width: 1000px) {
   .project-list {
     grid-template-columns: 1fr;
+  }
+  header h1 {
+    font-size: 40px;
   }
 }
