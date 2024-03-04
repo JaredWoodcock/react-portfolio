@@ -1,6 +1,7 @@
 import Project from '../components/Project';
 
 export default function PortfolioPage() {
+    // Projects listed in the portfolio. Each one has a project title, description, image, link to the application, and link to the GitHub repo
     const projects = [
         {
             title: 'Worth The Watch',
@@ -51,6 +52,7 @@ export default function PortfolioPage() {
             <h2 className="pb-3">Portfolio</h2>
             <div className="text-center project-list">
                 {projects.map((project, index) => (
+                    // Renders each project using the project component
                     <Project
                         key={index}
                         title={project.title}

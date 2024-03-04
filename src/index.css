@@ -9,13 +9,14 @@ a {
   text-decoration: inherit;
 }
 
+/* Active nav tab increases font size and is underlined */
 .active a {
   font-size: 1.3em;
   text-decoration: underline;
 }
 
 body {
-  padding-bottom: 65px;
+  padding-bottom: 90px;
   padding-top: 170px;
   background-color: #caf0f8;
   font-size: 20px;
@@ -50,7 +51,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 img {
