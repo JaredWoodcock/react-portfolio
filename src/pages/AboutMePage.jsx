@@ -12,7 +12,7 @@ export default function AboutMePage() {
             <p>When I'm not coding, I enjoy spending my time watching and playing sports, playing with my dogs, and being around friends and family. 
                 I'm always eager to learn and explore new technologies and techniques to enhance my skills and create impactful projects.</p>
             <p>Feel free to explore my portfolio and reach out to me if you'd like to collaborate or just say hello!</p>
-            <img id='headshot-picture' src='/jared_headshot.jpeg' alt="My Picture"/>
+            <img id='headshot-picture' src='/jared_headshot.JPEG' alt="My Picture"/>
         </div>
     );
 }
