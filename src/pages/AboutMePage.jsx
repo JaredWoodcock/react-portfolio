@@ -1,6 +1,6 @@
 export default function AboutMePage() {
     return (
-        <div className="m-5">
+        <div id='about-me-content' className="m-5">
             <h2 className="pb-3">About Me</h2>
             <p>Welcome to my portfolio!</p>
             <p>I'm Jared Woodcock and I am seeking a career in web development. I enjoy turning ideas into fascinating, interactive experiences on the web.</p>
@@ -12,6 +12,7 @@ export default function AboutMePage() {
             <p>When I'm not coding, I enjoy spending my time watching and playing sports, playing with my dogs, and being around friends and family. 
                 I'm always eager to learn and explore new technologies and techniques to enhance my skills and create impactful projects.</p>
             <p>Feel free to explore my portfolio and reach out to me if you'd like to collaborate or just say hello!</p>
+            <img id='headshot-picture' src='../src/assets/jared_headshot.jpeg' alt="My Picture"/>
         </div>
     );
 }
