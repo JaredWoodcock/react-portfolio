@@ -2,7 +2,7 @@ export default function ResumePage() {
     return (
         <div className="m-5">
             <h2 className="pb-3">Resume</h2>
-            <a style={{ color: '#0077b6' }} href="../public/JW Resume 2024.pdf" download>Download my resume here</a>
+            <a style={{ color: '#0077b6' }} href="/JW Resume 2024.pdf" download>Download my resume here</a>
 
             <div className="mt-5">
                 <h4>Front-End Proficiencies</h4>
