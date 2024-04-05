@@ -3,9 +3,9 @@ export default function ResumePage() {
         <div className="m-5">
             <h2 className="pb-3">Resume</h2>
             {/* Link to download resume */}
-            <a style={{ color: '#0077b6' }} href="/JW Resume 2024.pdf" download>Download my resume here</a>
+            <a style={{ color: '#0077b6' }} href="/JW Resume Apr 2024.pdf" download>Download my resume here</a>
 
-            <div className="mt-5">
+            <div className="mt-5 proficiencies-section">
                 <h4>Front-End Proficiencies</h4>
                 <ul>
                     <li>HTML</li>

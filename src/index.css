@@ -78,6 +78,14 @@ img {
   padding-right: 220px;
 }
 
+#about-me-paragraph {
+  font-size: 24px;
+}
+
+.proficiencies-section {
+  font-size: 24px;
+}
+
 @media (max-width: 600px) {
   #headshot-picture {
     position: static;
