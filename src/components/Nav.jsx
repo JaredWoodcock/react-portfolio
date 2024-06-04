@@ -21,12 +21,12 @@ export default function Nav() {
                 </li>
                 <li className="list-inline-item">|</li>
                 {/* Contact page link */}
-                <li className={`list-inline-item ${location.pathname === '/contact' ? 'active' : ''}`}>
+                {/* <li className={`list-inline-item ${location.pathname === '/contact' ? 'active' : ''}`}>
                     <Link to='/contact'>
                         <em>Contact</em>
                     </Link>
-                </li>
-                <li className="list-inline-item">|</li>
+                </li> */}
+                {/* <li className="list-inline-item">|</li> */}
                 {/* Resume page link */}
                 <li className={`list-inline-item ${location.pathname === '/resume' ? 'active' : ''}`}>
                     <Link to='/resume'>
